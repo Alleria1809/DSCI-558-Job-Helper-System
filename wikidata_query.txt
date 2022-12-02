@@ -1,0 +1,16 @@
+#Companies
+SELECT DISTINCT ?item ?itemLabel ?founded ?foundedLabel ?location ?locationLabel ?employees ?employeesLabel ?website ?websiteLabel ?industry ?industryLabel
+WHERE 
+{
+  {?item wdt:P31 wd:Q4830453} UNION {?item wdt:P31 wd:Q6881511}.# Must be of a business/enterprise
+  ?item wdt:P17 wd:Q30. # Must be in the U.S.
+  OPTIONAL {?item wdt:P571 ?founded}.
+  OPTIONAL {?item wdt:P2139 ?revenue}.
+  OPTIONAL {?item wdt:P740 ?location}.
+  OPTIONAL {?item wdt:P1128 ?employees}.
+  OPTIONAL {?item wdt:P856 ?website}.
+  OPTIONAL {?item wdt:P452 ?industry.}.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # Helps get the label in your language, if not, then en language
+}
+ORDER BY (?itemLabel)
