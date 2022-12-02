@@ -1,2 +1,0 @@
-sample_cv_ds_analyst, Experience in Hive, Impala or Apache Spark is preferred. is preferred.
-NLP project experience using pytorch, tensorflow, FASTai, spacy, huggingface transformers models.Very good experience of querying databases (SQL)
