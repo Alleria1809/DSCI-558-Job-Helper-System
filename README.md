@@ -1,5 +1,6 @@
 # DSCI-558-Job-Helper-System
 This is our job helper system
+Our Youtube video: https://www.youtube.com/watch?v=EczX-wm0GMc
 [dsci558 presentation.pdf](https://github.com/Alleria1809/DSCI-558-Job-Helper-System/files/10137605/dsci558.presentation.pdf)
 ![1669947966629](https://user-images.githubusercontent.com/97777827/205200762-eb13637c-2c84-4666-ad08-ad9062009a64.png)
 ![1669947978442](https://user-images.githubusercontent.com/97777827/205200787-81004ff4-677c-41f5-bd0b-e701b1c6da6f.png)
